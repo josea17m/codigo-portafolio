@@ -9,3 +9,15 @@ const fondo = document.getElementById("fondo");
 const divSkills = document.getElementById("divSkills");
 const divProyects = document.getElementById("divProyects");
 const divContact = document.getElementById("divContact");
+const navBar = document.getElementById("navBar");
+
+
+const buttonSubmit = document.getElementById("buttonSubmit");
+const messageSent = document.getElementById("message-sent");
+
+buttonSubmit.addEventListener("click", () => {
+  changes.messageSentShow();
+  setTimeout(() => {
+    changes.messageSentHidden();
+  }, 2000);
+});

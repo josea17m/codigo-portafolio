@@ -18,9 +18,13 @@
     <title>Mi portafolio | josea17m</title>
   </head>
   <body>
+    <div id="message-sent" class="message-sent">
+      <p>Mensaje enviado!</p>
+    </div>
+
     <main class="container-main">
       <div class="imagen-fondo inicio-image" id="fondo"></div>
-      <ul class="navbar-container">
+      <ul id="navBar" class="navbar-container">
         <li id="Inicio" class="navbar-item">Inicio</li>
         <li id="Skills" class="navbar-item">Habilidades</li>
         <li id="Proyects" class="navbar-item">Proyectos</li>
@@ -38,45 +42,58 @@
         <img src="./skills-images/mysql.png" alt="" />
       </div>
       <div class="banner-item proyects container-proyects" id="divProyects">
-        <div class="grid-itemPr">
-          <img src="./laptopfill.png" alt="" />
-          <div class="link-containerPr">
-            <a href="">Demo</a><a href="">Repo</a>
+        <div class="grid-item-proyect">
+          <img src="./proyects-images/auto-parts.png" alt="" />
+          <div class="description-proyect">
+            <p>Auto Parts</p>
+            <p>E-commerce sobre venta de repuestos para automoviles</p>
+          </div>
+
+          <div class="link-container-proyect">
+            <a href="">Demo</a
+            ><a target="_blank" href="https://github.com/josea17m/AutoParts"
+              >Repo</a
+            >
           </div>
         </div>
-        <div class="grid-itemPr">
-          <img src="./laptopfill.png" alt="" />
-          <div class="link-containerPr">
-            <a href="">Demo</a><a href="">Repo</a>
+        <div class="grid-item-proyect">
+          <img src="./proyects-images/auto-parts.png" alt="" />
+          <div class="link-container-proyect">
+            <a href="">Demo</a
+            ><a target="_blank" href="https://github.com/josea17m/AutoParts"
+              >Repo</a
+            >
           </div>
         </div>
-        <div class="grid-itemPr">
-          <img src="./laptopfill.png" alt="" />
-          <div class="link-containerPr">
-            <a href="">Demo</a><a href="">Repo</a>
-          </div>
-        </div>
-        <div class="grid-itemPr">
-          <img src="./laptopfill.png" alt="" />
-          <div class="link-containerPr">
-            <a href="">Demo</a><a href="">Repo</a>
-          </div>
-        </div>
-        <div class="grid-itemPr">
-          <img src="./laptopfill.png" alt="" />
-          <div class="link-containerPr">
-            <a href="">Demo</a><a href="">Repo</a>
-          </div>
-        </div>
-        <div class="grid-itemPr">
-          <img src="./laptopfill.png" alt="" />
-          <div class="link-containerPr">
-            <a href="">Demo</a><a href="">Repo</a>
+        <div class="grid-item-proyect">
+          <img src="./proyects-images/auto-parts.png" alt="" />
+          <div class="link-container-proyect">
+            <a href="">Demo</a
+            ><a target="_blank" href="https://github.com/josea17m/AutoParts"
+              >Repo</a
+            >
           </div>
         </div>
       </div>
       <div class="banner-item contact" id="divContact">
-        <p>CONTACT</p>
+        <form
+          class="contact-item"
+          action="mailto:josea1701m@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <textarea
+            type="text"
+            class="container-message"
+            placeholder="Mensaje..."
+          ></textarea
+          ><input type="text" placeholder="Nombre Completo" /><input
+            type="text"
+            placeholder="ejemplo@ejemplo.com"
+          /><input id="buttonSubmit" class="button" type="submit" />
+        </form>
+
+        <div class="social-icons"></div>
       </div>
 
       <div id="presentationBanner" class="main-banner">
@@ -96,6 +113,10 @@
       crossorigin="anonymous"
     ></script>
     <script src="index.js"></script>
-    <script src="changes.js"></script>
+    <script src="./JS/changes.js"></script>
+    <script src="./JS/contact.js"></script>
+    <script src="./JS/inicio.js"></script>
+    <script src="./JS/proyects.js"></script>
+    <script src="./JS/skills.js"></script>
   </body>
 </html>

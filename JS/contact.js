@@ -5,6 +5,7 @@ contact.addEventListener("click", () => {
       changes.removeDiSk();
       changes.removeDiPr();
       changes.addDiCo();
+      changes.contactColor();
       changes.removefondoI();
       changes.removefondoS();
       changes.removefondoP();
@@ -14,11 +15,13 @@ contact.addEventListener("click", () => {
   
     if (changes.divContactVisible()) {
       changes.removeDiCo();
+      changes.removeContactColor();
       changes.removePrBa();
       changes.removefondoC();
       changes.addfondoI();
     } else if (!changes.divContactVisible()) {
       changes.addDiCo();
+      changes.contactColor();
       changes.removefondoI();
       changes.removefondoS();
       changes.removefondoP();

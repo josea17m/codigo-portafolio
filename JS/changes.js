@@ -1,6 +1,28 @@
 // Objeto con todas las acciones de cambio de fondo y contenido
 
 const changes = {
+
+  messageSentShow: function(){
+    return messageSent.classList.add("deslizar");
+  },
+
+  messageSentHidden: function(){
+    return messageSent.classList.remove("deslizar");
+  },
+
+  skillsColor: function (){
+    return navBar.classList.add("skills-color");
+  },
+  removeSkillsColor: function (){
+    return navBar.classList.remove("skills-color");
+  },
+
+  contactColor: function (){
+    return navBar.classList.add("contact-color");
+  },
+  removeContactColor: function (){
+    return navBar.classList.remove("contact-color");
+  },
   divContactVisible: function () {
     return divContact.classList.contains("visible");
   },
