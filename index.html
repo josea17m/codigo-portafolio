@@ -18,18 +18,25 @@
     <title>Mi portafolio | josea17m</title>
   </head>
   <body>
+    <!-- Confirmacion de mensaje enviado -->
+
     <div id="message-sent" class="message-sent">
-      <p>Mensaje enviado!</p>
+      <p>!Mensaje enviado!</p>
     </div>
 
     <main class="container-main">
-      <div class="imagen-fondo inicio-image" id="fondo"></div>
+      <!-- Navbar and background images -->
+
+      <div class="background-image home-image" id="fondo"></div>
       <ul id="navBar" class="navbar-container">
         <li id="Inicio" class="navbar-item">Inicio</li>
         <li id="Skills" class="navbar-item">Habilidades</li>
         <li id="Proyects" class="navbar-item">Proyectos</li>
         <li id="Contact" class="navbar-item">Contacto</li>
       </ul>
+
+      <!-- Skills -->
+
       <div class="banner-item skills" id="divSkills">
         <img src="./skills-images/js.png" alt="" />
         <img src="./skills-images/typescript.png" alt="" />
@@ -41,6 +48,9 @@
         <img src="./skills-images/nodejs.png" alt="" />
         <img src="./skills-images/mysql.png" alt="" />
       </div>
+
+      <!-- Proyects -->
+
       <div class="banner-item proyects container-proyects" id="divProyects">
         <div class="grid-item-proyect">
           <img src="./proyects-images/auto-parts.png" alt="" />
@@ -75,6 +85,9 @@
           </div>
         </div>
       </div>
+
+      <!-- Contact -->
+
       <div class="banner-item contact" id="divContact">
         <form
           class="contact-item"
@@ -96,16 +109,18 @@
         <div class="social-icons"></div>
       </div>
 
+      <!-- Main Banner -->
+
       <div id="presentationBanner" class="main-banner">
         <img src="./WhatsApp Image 2022-11-17 at 2.png" alt="Foto personal" />
-        <div class="presentacion">
+        <div class="presentation">
           <h1><strong>Jose Alejandro Montero</strong></h1>
           <p>Programador Web Full-Stack</p>
         </div>
       </div>
-
-      <div class="container-about"></div>
     </main>
+
+    <!-- Scripts -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

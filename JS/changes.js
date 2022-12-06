@@ -1,27 +1,33 @@
 // Objeto con todas las acciones de cambio de fondo y contenido
 
 const changes = {
-
-  messageSentShow: function(){
+  messageSentShow: function () {
     return messageSent.classList.add("deslizar");
   },
 
-  messageSentHidden: function(){
+  messageSentHidden: function () {
     return messageSent.classList.remove("deslizar");
   },
 
-  skillsColor: function (){
+  skillsColor: function () {
     return navBar.classList.add("skills-color");
   },
-  removeSkillsColor: function (){
+  removeSkillsColor: function () {
     return navBar.classList.remove("skills-color");
   },
 
-  contactColor: function (){
+  contactColor: function () {
     return navBar.classList.add("contact-color");
   },
-  removeContactColor: function (){
+  removeContactColor: function () {
     return navBar.classList.remove("contact-color");
+  },
+
+  proyectColor: function () {
+    return navBar.classList.add("proyect-color");
+  },
+  removeProyectColor: function () {
+    return navBar.classList.remove("proyect-color");
   },
   divContactVisible: function () {
     return divContact.classList.contains("visible");
@@ -60,7 +66,7 @@ const changes = {
   },
 
   addfondoI: function () {
-    fondo.classList.add("inicio-image");
+    fondo.classList.add("home-image");
   },
   addfondoS: function () {
     fondo.classList.add("skills-image");
@@ -73,7 +79,7 @@ const changes = {
   },
 
   removefondoI: function () {
-    fondo.classList.remove("inicio-image");
+    fondo.classList.remove("home-image");
   },
   removefondoS: function () {
     fondo.classList.remove("skills-image");

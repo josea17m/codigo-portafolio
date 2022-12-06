@@ -4,6 +4,7 @@ contact.addEventListener("click", () => {
     if (changes.divProyectsVisible() || changes.divSkillsVisible()) {
       changes.removeDiSk();
       changes.removeDiPr();
+      changes.removeProyectColor();
       changes.addDiCo();
       changes.contactColor();
       changes.removefondoI();
@@ -16,6 +17,7 @@ contact.addEventListener("click", () => {
     if (changes.divContactVisible()) {
       changes.removeDiCo();
       changes.removeContactColor();
+      changes.removeProyectColor();
       changes.removePrBa();
       changes.removefondoC();
       changes.addfondoI();

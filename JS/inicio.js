@@ -7,6 +7,7 @@ inicio.addEventListener("click", () => {
     changes.removePrBa();
     changes.removeContactColor();
     changes.removeSkillsColor();
+    changes.removeProyectColor();
     changes.removefondoI();
     changes.removefondoS();
     changes.removefondoP();
