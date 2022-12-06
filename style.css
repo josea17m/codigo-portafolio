@@ -140,7 +140,6 @@
   padding: 1%;
 }
 
-
 .message-sent {
   position: absolute;
   top: 8%;
@@ -275,7 +274,6 @@
 .deslizar {
   right: 80%;
 }
-
 
 .ocultar {
   visibility: hidden;

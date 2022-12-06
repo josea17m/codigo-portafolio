@@ -1,11 +1,11 @@
-// declaracion de variables principales
+// Main variables
 
 const skills = document.getElementById("Skills");
 const proyects = document.getElementById("Proyects");
 const contact = document.getElementById("Contact");
-const inicio = document.getElementById("Inicio");
+const home = document.getElementById("Home");
 const presetationBanner = document.getElementById("presentationBanner");
-const fondo = document.getElementById("fondo");
+const background = document.getElementById("background");
 const divSkills = document.getElementById("divSkills");
 const divProyects = document.getElementById("divProyects");
 const divContact = document.getElementById("divContact");
@@ -14,6 +14,8 @@ const navBar = document.getElementById("navBar");
 
 const buttonSubmit = document.getElementById("buttonSubmit");
 const messageSent = document.getElementById("message-sent");
+
+// Confirmation of sent message
 
 buttonSubmit.addEventListener("click", () => {
   changes.messageSentShow();

@@ -1,33 +1,33 @@
-// Objeto con todas las acciones de cambio de fondo y contenido
+// Background and content change actions
 
 const changes = {
   messageSentShow: function () {
-    return messageSent.classList.add("deslizar");
+    messageSent.classList.add("deslizar");
   },
 
   messageSentHidden: function () {
-    return messageSent.classList.remove("deslizar");
+    messageSent.classList.remove("deslizar");
   },
 
   skillsColor: function () {
-    return navBar.classList.add("skills-color");
+    navBar.classList.add("skills-color");
   },
   removeSkillsColor: function () {
-    return navBar.classList.remove("skills-color");
+    navBar.classList.remove("skills-color");
   },
 
   contactColor: function () {
-    return navBar.classList.add("contact-color");
+    navBar.classList.add("contact-color");
   },
   removeContactColor: function () {
-    return navBar.classList.remove("contact-color");
+    navBar.classList.remove("contact-color");
   },
 
   proyectColor: function () {
-    return navBar.classList.add("proyect-color");
+    navBar.classList.add("proyect-color");
   },
   removeProyectColor: function () {
-    return navBar.classList.remove("proyect-color");
+    navBar.classList.remove("proyect-color");
   },
   divContactVisible: function () {
     return divContact.classList.contains("visible");
@@ -65,29 +65,29 @@ const changes = {
     divSkills.classList.add("visible");
   },
 
-  addfondoI: function () {
-    fondo.classList.add("home-image");
+  addBackgroundI: function () {
+    background.classList.add("home-image");
   },
-  addfondoS: function () {
-    fondo.classList.add("skills-image");
+  addBackgroundS: function () {
+    background.classList.add("skills-image");
   },
-  addfondoP: function () {
-    fondo.classList.add("proyects-image");
+  addBackgroundP: function () {
+    background.classList.add("proyects-image");
   },
-  addfondoC: function () {
-    fondo.classList.add("contact-image");
+  addBackgroundC: function () {
+    background.classList.add("contact-image");
   },
 
-  removefondoI: function () {
-    fondo.classList.remove("home-image");
+  removeBackgroundI: function () {
+    background.classList.remove("home-image");
   },
-  removefondoS: function () {
-    fondo.classList.remove("skills-image");
+  removeBackgroundS: function () {
+    background.classList.remove("skills-image");
   },
-  removefondoP: function () {
-    fondo.classList.remove("proyects-image");
+  removeBackgroundP: function () {
+    background.classList.remove("proyects-image");
   },
-  removefondoC: function () {
-    fondo.classList.remove("contact-image");
+  removeBackgroundC: function () {
+    background.classList.remove("contact-image");
   },
 };

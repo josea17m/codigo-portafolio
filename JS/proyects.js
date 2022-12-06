@@ -6,10 +6,10 @@ proyects.addEventListener("click", () => {
       changes.removeDiCo();
       changes.addDiPr();
       changes.proyectColor();
-      changes.removefondoI();
-      changes.removefondoS();
-      changes.removefondoC();
-      changes.addfondoP();
+      changes.removeBackgroundI();
+      changes.removeBackgroundS();
+      changes.removeBackgroundC();
+      changes.addBackgroundP();
       return;
     }
   
@@ -17,16 +17,15 @@ proyects.addEventListener("click", () => {
       changes.removeDiPr();
       changes.removePrBa();
       changes.removeProyectColor();
-      changes.removefondoP();
-      changes.addfondoI();
+      changes.removeBackgroundP();
+      changes.addBackgroundI();
     } else if (!changes.divProyectsVisible()) {
       changes.addDiPr();
       changes.proyectColor();
-      changes.removefondoI();
-      changes.removefondoS();
-      changes.removefondoC();
-      changes.addfondoP();
+      changes.removeBackgroundI();
+      changes.removeBackgroundS();
+      changes.removeBackgroundC();
+      changes.addBackgroundP();
       changes.addPrBa();
-      return;
     }
   });
