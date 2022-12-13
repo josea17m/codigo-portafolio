@@ -18,35 +18,102 @@
     <title>Mi portafolio | josea17m</title>
   </head>
   <body>
-    <!-- Confirmacion de mensaje enviado -->
+    <!-- Message Sent confimation -->
 
     <div id="message-sent" class="message-sent">
-      <p>!Mensaje enviado!</p>
+      <p>Mensaje enviado!</p>
     </div>
 
     <main class="container-main">
       <!-- Navbar and background images -->
-
       <div class="background-image home-image" id="background"></div>
+
       <ul id="navBar" class="navbar-container">
-        <li id="Home" class="navbar-item">Inicio</li>
+        <li id="Home" class="navbar-item">Sobre mi</li>
         <li id="Skills" class="navbar-item">Habilidades</li>
         <li id="Proyects" class="navbar-item">Proyectos</li>
         <li id="Contact" class="navbar-item">Contacto</li>
       </ul>
 
+      <div id="navbarContracted" class="navbar-contracted-container">
+        <ul class="navbar-contracted">
+          <a id="homePhone">Sobre mi</a>
+          <a id="skillsPhone">Habilidades</a>
+          <a id="proyectsPhone">Proyectos</a>
+          <a id="contactPhone">Contacto</a>
+        </ul>
+      </div>
+
+      <div id="menuButton" class="burger-menu">
+        <img src="./burger-menu.png" alt="" />
+      </div>
+      <div class="h1-name"><h1 class="a" id="h1Name">Sobre mi</h1></div>
+      <!-- Main Banner -->
+      <div id="presentationBanner">
+        <div id="mainBanner" class="main-banner">
+          <img
+            class="profile-img"
+            src="./profile-image.png"
+            alt="Foto personal"
+          />
+          <div class="presentation">
+            <h1><strong>Jose Alejandro Montero</strong></h1>
+            <p>Programador Web Full-Stack</p>
+          </div>
+        </div>
+
+        <div id="mainBanner2" class="about main-banner">
+          <h1>Sobre mi</h1>
+          <p>
+            Soy una persona proactiva, excelente compañero de equipo, organizado
+            y responsable. Disfruto mucho aprender cosas nuevas, resolver
+            problemas y enfrentarme a retos. Mi objetivo es encontrar mi primer
+            trabajo en el mundo del desarrollo web. Y estoy en constante
+            aprendizaje para mejorar usando las tecnologias mas recientes.
+          </p>
+        </div>
+      </div>
+
       <!-- Skills -->
 
       <div class="banner-item skills" id="divSkills">
-        <img src="./skills-images/js.png" alt="Javascript" />
-        <img src="./skills-images/typescript.png" alt="Typescript" />
-        <img src="./skills-images/react.png" alt="React" />
-        <img src="./skills-images/git.png" alt="Git" />
+        <div>
+          <div id="jsName" class="name-skills">Javascript</div>
+          <img id="javascript" src="./skills-images/js.png" alt="Javascript" />
+        </div>
+        <div>
+          <div id="tsName" class="name-skills">Typescript</div>
+          <img
+            id="typescript"
+            src="./skills-images/typescript.png"
+            alt="Typescript"
+          />
+        </div>
+        <div>
+          <div id="reactName" class="name-skills">React</div>
+          <img id="react" src="./skills-images/react.png" alt="React" />
+        </div>
+        <div>
+          <div id="gitName" class="name-skills">Git</div>
+          <img id="git" src="./skills-images/git.png" alt="Git" />
+        </div>
 
-        <img src="./skills-images/html-5.png" alt="HTML5" />
-        <img src="./skills-images/css-3.png" alt="CSS3" />
-        <img src="./skills-images/nodejs.png" alt="NodeJS" />
-        <img src="./skills-images/mysql.png" alt="MySQL" />
+        <div>
+          <div id="htmlName" class="name-skills">HTML5</div>
+          <img id="html5" src="./skills-images/html-5.png" alt="HTML5" />
+        </div>
+        <div>
+          <div id="cssName" class="name-skills">CSS3</div>
+          <img id="css3" src="./skills-images/css-3.png" alt="CSS3" />
+        </div>
+        <div>
+          <div id="nodeName" class="name-skills">NodeJS</div>
+          <img id="nodejs" src="./skills-images/nodejs.png" alt="NodeJS" />
+        </div>
+        <div>
+          <div id="sqlName" class="name-skills">MySQL</div>
+          <img id="mysql" src="./skills-images/mysql.png" alt="MySQL" />
+        </div>
       </div>
 
       <!-- Proyects -->
@@ -68,18 +135,26 @@
         </div>
         <div class="grid-item-proyect">
           <img src="./proyects-images/auto-parts.png" alt="" />
+          <div class="description-proyect">
+            <p>Mundo camisetas</p>
+            <p>E-commerce para venta de camisetas de equipos de futbol</p>
+          </div>
           <div class="link-container-proyect">
             <a href="">Demo</a
-            ><a target="_blank" href="https://github.com/josea17m/AutoParts"
+            ><a target="_blank" href="https://github.com/maxrb0/Grupo16"
               >Repo</a
             >
           </div>
         </div>
         <div class="grid-item-proyect">
-          <img src="./proyects-images/auto-parts.png" alt="" />
+          <img src="./proyects-images/joyeria-kebisu.png" alt="" />
+          <div class="description-proyect">
+            <p>Kebisu & Joyeria</p>
+            <p>Joyeria en linea con carrito de compras</p>
+          </div>
           <div class="link-container-proyect">
             <a href="">Demo</a
-            ><a target="_blank" href="https://github.com/josea17m/AutoParts"
+            ><a target="_blank" href="https://github.com/josea17m/joyeria-react"
               >Repo</a
             >
           </div>
@@ -106,16 +181,24 @@
           /><input id="buttonSubmit" class="button" type="submit" />
         </form>
 
-        <div class="social-icons"></div>
-      </div>
-
-      <!-- Main Banner -->
-
-      <div id="presentationBanner" class="main-banner">
-        <img src="./WhatsApp Image 2022-11-17 at 2.png" alt="Foto personal" />
-        <div class="presentation">
-          <h1><strong>Jose Alejandro Montero</strong></h1>
-          <p>Programador Web Full-Stack</p>
+        <div class="social-icons">
+          <a target="_blank" href="https://github.com/josea17m">
+            <img src="./Icons/github.png" alt="github">
+            </img>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/jose-alejandro-montero
+          ">
+            <img src="./Icons/linkedin.png" alt="linkedin">
+            </img>
+          </a>
+          <a target="_blank" href="https://wa.link/yqvsqh">
+            <img src="./Icons/whatsapp.png" alt="whatsapp">
+            </img>
+          </a>
+          <a target="_blank" href="https://www.instagram.com/josea17m/">
+            <img src="./Icons/instagram.png" alt="instagram">
+            </img>
+          </a>
         </div>
       </div>
     </main>

@@ -29,3 +29,17 @@ proyects.addEventListener("click", () => {
       changes.addPrBa();
     }
   });
+
+proyectsPhone.addEventListener("click", () => {
+  changes.toggleMenu();
+  h1Name.innerText = "Proyectos";
+  changes.backgroundSpace();
+  changes.proyectColorH1();
+  changes.removeDivMainBanner();
+  changes.removeDivSkills();
+  changes.removeDivContact();
+  changes.removeDivMainBanner();
+  changes.removeContactColorH1();
+  changes.removeSkillsColorH1();
+  changes.divProyects();
+})
