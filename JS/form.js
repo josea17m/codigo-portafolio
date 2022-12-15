@@ -62,7 +62,5 @@ textArea.addEventListener("keyup", validation);
 textArea.addEventListener("blur", validation);
 
 form.addEventListener("submit", (e) => {
-  e.preventDefault();
   console.log("hola");
-  e.submit();
 });
