@@ -37,10 +37,10 @@
 
       <div id="navbarContracted" class="navbar-contracted-container">
         <ul class="navbar-contracted">
-          <a id="homePhone">Sobre mi</a>
-          <a id="skillsPhone">Habilidades</a>
-          <a id="proyectsPhone">Proyectos</a>
-          <a id="contactPhone">Contacto</a>
+          <div class="home-phone" id="homePhone"><li>Sobre mi</li></div>
+          <div class="skills-phone" id="skillsPhone"><li>Habilidades</li></div>
+          <div class="proyects-phone" id="proyectsPhone"><li>Proyectos</li></div>
+          <div class="contact-phone" id="contactPhone"><li>Contacto</li></div>
         </ul>
       </div>
 
@@ -164,12 +164,8 @@
       <!-- Contact -->
 
       <div class="banner-item contact" id="divContact">
-        <form
-          id="form"
-          class="contact-item"
-          data-netlify="true"
-        >
-        <input type="hidden" name="form-name" value="form">
+        <form id="form" class="contact-item" data-netlify="true">
+          <input type="hidden" name="form-name" value="form" />
           <textarea
             name="message"
             type="text"
@@ -191,7 +187,7 @@
             placeholder="ejemplo@ejemplo.com"
             required
           />
-          <input type="hidden" name="_confirmation" value="">
+          <input type="hidden" name="_confirmation" value="" />
           <input id="buttonSubmit" class="button" type="submit" />
         </form>
 

@@ -5,6 +5,8 @@ proyects.addEventListener("click", () => {
       changes.removeDiSk();
       changes.removeDiCo();
       changes.addDiPr();
+      changes.removeContactColor();
+      changes.removeSkillsColor();
       changes.proyectColor();
       changes.removeBackgroundI();
       changes.removeBackgroundS();

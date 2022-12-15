@@ -48,9 +48,9 @@ contactPhone.addEventListener("click", () => {
 
 // Confirmation of sent message
 
-buttonSubmit.addEventListener("click", () => {
-  changes.messageSentShow();
-  setTimeout(() => {
-    changes.messageSentHidden();
-  }, 2000);
-});
+// buttonSubmit.addEventListener("click", () => {
+//   changes.messageSentShow();
+//   setTimeout(() => {
+//     changes.messageSentHidden();
+//   }, 2000);
+// });

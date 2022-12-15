@@ -6,7 +6,7 @@
   list-style: none;
 }
 
-body{
+body {
   background-image: url(./fondos/image-space.jpg);
   background-position: center;
   background-size: cover;
@@ -66,7 +66,7 @@ a {
 .navbar-contracted {
   z-index: 2;
   padding: 0;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(40px);
   display: none;
   flex-direction: column;
   align-items: center;
@@ -74,7 +74,34 @@ a {
   width: 100%;
   height: 100%;
   color: var(--white);
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+}
+
+.navbar-contracted div {
+  text-align: center;
+  width: 70%;
+  height: auto;
+  padding: 20px 50px;
+}
+
+.home-phone{
+  border: 2px solid var(--red);
+  box-shadow: 0 0 15px var(--red);
+}
+
+.skills-phone{
+  border: 2px solid var(--greenblue);
+  box-shadow: 0 0 15px var(--greenblue);
+}
+
+.proyects-phone{
+  border: 2px solid var(--yellow);
+  box-shadow: 0 0 15px var(--yellow);
+}
+
+.contact-phone{
+  border: 2px solid var(--main-color);
+  box-shadow: 0 0 15px var(--main-color);
 }
 
 .navbar-contracted-container {
@@ -209,6 +236,7 @@ a {
 }
 
 .message-sent {
+  display: none;
   position: absolute;
   top: 2%;
   right: 105%;
@@ -235,17 +263,17 @@ a {
   margin: 0;
 }
 
-.wrong{
+.wrong {
   border: 2px solid var(--red);
   box-shadow: 0 0 5px var(--red);
 }
 
-.correct{
+.correct {
   border: 2px solid var(--green);
   box-shadow: 0 0 5px var(--green);
 }
 
-.social-icons{
+.social-icons {
   border: 1px solid var(--main-color);
   box-shadow: 0 0 5px var(--main-color);
   display: grid;
@@ -255,15 +283,15 @@ a {
   padding: 3%;
 }
 
-.social-icons a img{
-width: 2rem;
-width: 2rem;
-transition: 500ms;
+.social-icons a img {
+  width: 2rem;
+  width: 2rem;
+  transition: 500ms;
 }
 
-.social-icons a img:hover{
+.social-icons a img:hover {
   transform: scale(1.1);
-  }
+}
 
 /* PROYECT */
 
@@ -514,7 +542,6 @@ transition: 500ms;
     grid-template-columns: 1fr;
     grid-template-rows: 33%;
     gap: 10px;
-
   }
 
   .grid-item-proyect {
