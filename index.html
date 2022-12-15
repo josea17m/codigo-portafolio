@@ -167,9 +167,7 @@
         <form
           id="form"
           class="contact-item"
-          action="send.php"
-          method="POST"
-          enctype="text/plain"
+          netlify
         >
           <textarea
             name="message"
@@ -178,8 +176,21 @@
             placeholder="Mensaje..."
             required
           ></textarea
-          ><input id="inputName" type="name" name="name" placeholder="Nombre Completo" required/>
-          <input id="inputEmail" name="email" type="email" placeholder="ejemplo@ejemplo.com" required/>
+          ><input
+            id="inputName"
+            type="text"
+            name="name"
+            placeholder="Nombre Completo"
+            required
+          />
+          <input
+            id="inputEmail"
+            name="_replyto"
+            type="email"
+            placeholder="ejemplo@ejemplo.com"
+            required
+          />
+          <input type="hidden" name="_confirmation" value="">
           <input id="buttonSubmit" class="button" type="submit" />
         </form>
 
