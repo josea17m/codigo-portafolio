@@ -165,39 +165,40 @@
 
       <div class="banner-item contact" id="divContact">
         <form
+          id="form"
           class="contact-item"
-          action="mailto:josea1701m@gmail.com"
-          method="post"
+          action="enviar.php"
+          method="POST"
           enctype="text/plain"
         >
           <textarea
+            name="message"
             type="text"
             class="container-message"
             placeholder="Mensaje..."
+            required
           ></textarea
-          ><input type="text" placeholder="Nombre Completo" /><input
-            type="text"
-            placeholder="ejemplo@ejemplo.com"
-          /><input id="buttonSubmit" class="button" type="submit" />
+          ><input id="inputName" type="name" name="name" placeholder="Nombre Completo" required/>
+          <input id="inputEmail" name="email" type="email" placeholder="ejemplo@ejemplo.com" required/>
+          <input id="buttonSubmit" class="button" type="submit" />
         </form>
 
         <div class="social-icons">
           <a target="_blank" href="https://github.com/josea17m">
-            <img src="./Icons/github.png" alt="github">
-            </img>
+            <img src="./Icons/github.png" alt="github" />
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/jose-alejandro-montero
-          ">
-            <img src="./Icons/linkedin.png" alt="linkedin">
-            </img>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/jose-alejandro-montero
+          "
+          >
+            <img src="./Icons/linkedin.png" alt="linkedin" />
           </a>
           <a target="_blank" href="https://wa.link/yqvsqh">
-            <img src="./Icons/whatsapp.png" alt="whatsapp">
-            </img>
+            <img src="./Icons/whatsapp.png" alt="whatsapp" />
           </a>
           <a target="_blank" href="https://www.instagram.com/josea17m/">
-            <img src="./Icons/instagram.png" alt="instagram">
-            </img>
+            <img src="./Icons/instagram.png" alt="instagram" />
           </a>
         </div>
       </div>
@@ -212,6 +213,7 @@
     ></script>
     <script src="index.js"></script>
     <script src="./JS/changes.js"></script>
+    <script src="./JS/form.js"></script>
     <script src="./JS/contact.js"></script>
     <script src="./JS/home.js"></script>
     <script src="./JS/proyects.js"></script>
