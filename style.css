@@ -99,6 +99,15 @@ a {
   box-shadow: 0 0 15px var(--yellow);
 }
 
+.curriculum-phone{  
+  border: 2px solid var(--white);
+  box-shadow: 0 0 15px var(--white);
+}
+
+.curriculum-phone a{  
+  color: var(--white);
+}
+
 .contact-phone{
   border: 2px solid var(--main-color);
   box-shadow: 0 0 15px var(--main-color);
@@ -135,6 +144,25 @@ a {
   font-size: 1rem;
   color: var(--white);
   cursor: pointer;
+}
+
+/* CV */
+
+.curriculum{
+  z-index: 2;
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  padding: 1%;
+  border: 1px solid var(--white);
+  box-shadow: 0 0 5px var(--white);
+  color: var(--white);
+  transition: 200ms;
+}
+
+.curriculum:hover{
+ transform: scale(1.1);
+ color: var(--white);
 }
 
 /* BANNER GENERAL */
@@ -518,8 +546,16 @@ a {
     height: 100vh;
   }
 
+  .curriculum{
+    display: none;
+  }
+
   .main-banner {
     width: 90vw;
+  }
+
+  textarea{
+    background-color: var(--white);
   }
 
   .banner-item {

@@ -113,5 +113,4 @@ skillsPhone.addEventListener("click", () => {
   changes.removeContactColorH1();
   changes.skillsColorH1();
   changes.divSkills();
-  
 })
