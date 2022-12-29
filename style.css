@@ -84,31 +84,31 @@ a {
   padding: 20px 50px;
 }
 
-.home-phone{
+.home-phone {
   border: 2px solid var(--red);
   box-shadow: 0 0 15px var(--red);
 }
 
-.skills-phone{
+.skills-phone {
   border: 2px solid var(--greenblue);
   box-shadow: 0 0 15px var(--greenblue);
 }
 
-.proyects-phone{
+.proyects-phone {
   border: 2px solid var(--yellow);
   box-shadow: 0 0 15px var(--yellow);
 }
 
-.curriculum-phone{  
+.curriculum-phone {
   border: 2px solid var(--white);
   box-shadow: 0 0 15px var(--white);
 }
 
-.curriculum-phone a{  
+.curriculum-phone a {
   color: var(--white);
 }
 
-.contact-phone{
+.contact-phone {
   border: 2px solid var(--main-color);
   box-shadow: 0 0 15px var(--main-color);
 }
@@ -148,7 +148,7 @@ a {
 
 /* CV */
 
-.curriculum{
+.curriculum {
   z-index: 2;
   position: absolute;
   top: 25px;
@@ -160,9 +160,9 @@ a {
   transition: 200ms;
 }
 
-.curriculum:hover{
- transform: scale(1.1);
- color: var(--white);
+.curriculum:hover {
+  transform: scale(1.1);
+  color: var(--white);
 }
 
 /* BANNER GENERAL */
@@ -546,7 +546,7 @@ a {
     height: 100vh;
   }
 
-  .curriculum{
+  .curriculum {
     display: none;
   }
 
@@ -554,7 +554,7 @@ a {
     width: 90vw;
   }
 
-  textarea{
+  textarea {
     background-color: var(--white);
   }
 
